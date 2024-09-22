@@ -1,17 +1,10 @@
 import streamlit as st
-import plotly.graph_objects as go
 import pandas as pd
 import pydeck as pdk
 import geopandas as gp
-import matplotlib.pyplot as plt
-import seaborn as sns
 import h3
 from shapely.geometry import Polygon
-import openai
-from openai import OpenAI
 import os
-import tiktoken
-import streamlit.components.v1 as components
 
 def splice_geometry_into_smaller_chunks(geometry_file):
     import numpy as np
@@ -437,14 +430,3 @@ deck = pdk.Deck(
 
 )
 st.pydeck_chart(deck)
-# Pass the height to the frame
-# components.html(deck.to_html(as_string=True),height=1000,width=500)
-
-
-
-
-
-
-
-# r = pdk.Deck(layers=[labour_layer], initial_view_state=view_state, tooltip={"text": "{Party}"})
-# st.pydeck_chart(r)
