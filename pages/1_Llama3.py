@@ -126,7 +126,7 @@ party_colors = {
 
 
 # Create DataFrame
-df = pd.read_csv("/Users/tariromashongamhende/Documents/Documents - Tariro’s MacBook Pro/ml_projects/spatial_llm/project_election_slugbot/Slugbot/Election Slugbot base model - base_model - 2 workers.csv")
+df = pd.read_excel(f"{os.getcwd()}/results/FINAL RESULTS Election Slugbot base model.xlsx", sheet_name="base_model - 2 workers")
 # df
 aggregated_df = df.groupby(df.columns[-1]).nunique()[[df.columns[0]]].reset_index()
 aggregated_df["total_seats"] = aggregated_df[aggregated_df.columns[1]].sum()
