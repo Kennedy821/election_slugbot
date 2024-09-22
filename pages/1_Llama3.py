@@ -6,6 +6,16 @@ import h3
 from shapely.geometry import Polygon
 import os
 
+from PIL import Image
+
+im = Image.open('recolored_image.png')
+st.set_page_config(
+    page_title="SLUGbot",
+    page_icon=im,
+    layout="wide"
+
+    )   
+
 def splice_geometry_into_smaller_chunks(geometry_file):
     import numpy as np
 
@@ -87,12 +97,13 @@ def polygon_to_h3(gdf, resolution=8):
 
 
 
-st.set_page_config(layout="wide")
 
 logo, header = st.columns([1,9])
 with logo:
     # Display the image
     st.image("recolored_image.png", width=75)
+
+
 
     # Custom CSS to position the image
     st.markdown(
