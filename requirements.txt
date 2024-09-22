@@ -4,3 +4,4 @@ pydeck
 geopandas
 h3
 shapely
+openpyxl
