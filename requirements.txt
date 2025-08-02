@@ -1,7 +1,7 @@
 streamlit
 pandas
 pydeck
-geopandas
+geopandas==1.0.0
 h3
 shapely
 openpyxl
