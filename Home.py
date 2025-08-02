@@ -47,13 +47,13 @@ This is a research project looking to showcase how location based data and moder
 
 This is a demonstration of what is possible.
 
-# How to predict an election without using polls
+## How to predict an election without using polls
 
 * Ways people predict elections mostly at the moment is through the use of polls. 
 * New polls are different sure, but they are ultimately at their heart still polls.
 * What’s so wrong with polls, not much but in world where we have advances in machine learning like language models it all feels a bit old. Maybe the reason polls are used is because they are the best predictors we’ve developed. Maybe they aren’t. This project was a flawed and quick attempt to challenge the dominance of this somewhat 20th-century concept. 
 
-# Results
+## Results
 
 It is possible to predict the outcome of an election at the headline number of seats level, as well as as somewhat possible at the seat level
 
@@ -89,5 +89,6 @@ The main story is that a relatively unsophisticated approach was able to make a 
 
 """
 )
+
 
 
