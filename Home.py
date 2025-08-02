@@ -36,8 +36,8 @@ with logo:
         """,
         unsafe_allow_html=True
     )
-with header:
-    st.title("About")
+# with header:
+st.title("Project Election Slugbot")
 
 
 st.markdown("\n\n\n\n")
@@ -89,4 +89,5 @@ The main story is that a relatively unsophisticated approach was able to make a 
 
 """
 )
+
 
