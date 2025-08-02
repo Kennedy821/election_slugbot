@@ -55,9 +55,9 @@ This is a demonstration of what is possible.
 
 ## Results
 
-It is possible to predict the outcome of an election at the headline number of seats level, as well as as somewhat possible at the seat level
+It is possible to predict the outcome of an election at the headline number of seats level, as well as somewhat possible at the seat level
 
-* What’s not possible - accounting for all available information at the seat level as well as temporally - it remains unclear if incorporating the latest political developments during a campaign makes any substantive difference in the likelihood of party will win a particular seat. With the exception of new parties standing and or parties standing down (tactical voting)
+What’s not possible - accounting for all available information at the seat level as well as temporally - it remains unclear if incorporating the latest political developments during a campaign makes any substantive difference in the likelihood of party will win a particular seat. With the exception of new parties standing and or parties standing down (tactical voting)
 
 
 
@@ -89,6 +89,7 @@ The main story is that a relatively unsophisticated approach was able to make a 
 
 """
 )
+
 
 
 
