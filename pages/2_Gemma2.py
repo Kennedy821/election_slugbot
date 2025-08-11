@@ -139,7 +139,7 @@ aggregated_df["total_seats"] = aggregated_df[aggregated_df.columns[1]].sum()
 aggregated_df["pct"] = aggregated_df[aggregated_df.columns[1]] / aggregated_df["total_seats"]
 
 # load the geometry file
-gdf = gp.read_file("uk_pcon_map_w_2024_election_predictions.geojson")[["pcon_name","geometry"]].to_crs(4326)
+gdf = gp.read_file("uk_pcon_map_w_2024_election_predictions_efficient.geojson")[["pcon_name","geometry"]].to_crs(4326)
 
 gdf = gdf.set_index("pcon_name").explode().reset_index()
 # gdf
